@@ -12,10 +12,14 @@ But I complete it. I am so Happy.
 
 My Demo : https://www.youtube.com/watch?v=b9SCSuHvSqE&feature=youtu.be
 
-My feature in the Future:\n
+My feature in the Future:
+
 +Add Setting View include (setting theme, font size,...)
+
 +Add RSS Link 
+
 +Add Recently News
+
 +Add type of News
 
 Difficult in Develop Process
