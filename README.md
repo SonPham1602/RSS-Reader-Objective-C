@@ -12,7 +12,7 @@ But I complete it. I am so Happy.
 
 My Demo : https://www.youtube.com/watch?v=b9SCSuHvSqE&feature=youtu.be
 
-My feature in the Future:
+My feature in the Future:\n
 +Add Setting View include (setting theme, font size,...)
 +Add RSS Link 
 +Add Recently News
