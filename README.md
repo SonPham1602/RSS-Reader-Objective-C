@@ -1,13 +1,22 @@
 # RSS-Reader-Objective-C
 Hello Everyone
+
 My Name is Son
+
 I am student at Ho Chi Minh City University of Science
+
 This is My Testing Exam to become a fesher of KMS company
+
 My duration deadline is 4 days. 
+
 I used Objective-C and I have't learn it.
+
 This is a challange with me. 
+
 I spent 2 days reading Books. This is "Objective - C Notes for Professionals". And 2 days for coding
+
 and searching problems in Google
+
 But I complete it. I am so Happy.
 
 My Demo : https://www.youtube.com/watch?v=b9SCSuHvSqE&feature=youtu.be
