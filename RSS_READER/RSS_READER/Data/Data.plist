@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SettingTheme</key>
+	<string>0</string>
+	<key>NewsRecentlyRead</key>
+	<array/>
+	<key>NewsDownload</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>Nadal - Thiem: Trò chơi vương quyền ở chung kết Roland Garros 2019</string>
+			<key>description</key>
+			<string>&lt;a href=&quot;https://vnexpress.net/the-thao/nadal-thiem-tro-choi-vuong-quyen-o-chung-ket-roland-garros-2019-3935924.html&quot;&gt;&lt;img width=130 height=100 src=&quot;https://i-thethao.vnecdn.net/2019/06/09/26105415410953025601440-156006-1115-3966-1560068133_180x108.jpg&quot; &gt;&lt;/a&gt;&lt;/br&gt;&quot;Vua&quot; Rafael Nadal đứng trước cơ hội nối dài kỷ lục ở Paris, trong khi &quot;Hoàng tử&quot; Dominic Thiem cũng đang tìm kiếm cho mình danh hiệu Grand Slam đầu tiên.</string>
+			<key>link</key>
+			<string>aaa</string>
+			<key>pubDate</key>
+			<string>Sun, 09 Jun 2019 15:17:15 +0700</string>
+		</dict>
+	</array>
+</dict>
+</plist>
