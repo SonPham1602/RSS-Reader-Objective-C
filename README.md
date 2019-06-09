@@ -23,9 +23,12 @@ My feature in the Future:
 +Add type of News
 
 Difficult in Develop Process
+
 +Objective C is so different from many languages which I leaned ,The syntax is so hard to remember. 
 and there are many function of NSObject. I can't remember all it 
+
 +Objective C is OOP language. So I did not still deeply understand it. 
+
 +I met some problems with Notification in App, Static variable, And Plist File, And Now I have't solved its.
 
 Thanks for Reading 
