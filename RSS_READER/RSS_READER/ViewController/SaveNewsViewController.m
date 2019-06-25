@@ -72,7 +72,7 @@ static NSMutableArray *itemList;
 }
 
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath{
-    if(editingStyle = UITableViewCellEditingStyleDelete)
+    if(editingStyle == UITableViewCellEditingStyleDelete)
     {
         [itemList removeObjectAtIndex:indexPath.row];
         [self.tableView reloadData];
@@ -90,7 +90,7 @@ static NSMutableArray *itemList;
     NSString *documentsDirectory = [paths firstObject];
     NSString *path = [documentsDirectory stringByAppendingPathComponent:@"Data.plist"];
     // saving values
-    NSMutableDictionary *dict = [NSMutableDictionary dictionaryWithObject:@"" forKey:@"DoNotEverChangeMe"];
+    //NSMutableDictionary *dict = [NSMutableDictionary dictionaryWithObject:@"" forKey:@"DoNotEverChangeMe"];
   
     // writing to GameData.plist
     [itemList writeToFile:docfilePath atomically:YES];

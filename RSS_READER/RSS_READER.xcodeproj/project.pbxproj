@@ -19,6 +19,7 @@
 		22C3BED022A98E230078DACA /* BookMarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C3BECF22A98E230078DACA /* BookMarkViewController.m */; };
 		22F5632022AAA24100DA971D /* CellObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F5631F22AAA24100DA971D /* CellObject.m */; };
 		22F5632322AAD95300DA971D /* ViewDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F5632222AAD95300DA971D /* ViewDetailViewController.m */; };
+		FF875B8722C11A8C00DDC074 /* OptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF875B8622C11A8C00DDC074 /* OptionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,8 @@
 		22F5631F22AAA24100DA971D /* CellObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellObject.m; sourceTree = "<group>"; };
 		22F5632122AAD95300DA971D /* ViewDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewDetailViewController.h; sourceTree = "<group>"; };
 		22F5632222AAD95300DA971D /* ViewDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewDetailViewController.m; sourceTree = "<group>"; };
+		FF875B8522C11A8C00DDC074 /* OptionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OptionViewController.h; sourceTree = "<group>"; };
+		FF875B8622C11A8C00DDC074 /* OptionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OptionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				220D692222AC6C3100060D19 /* SaveNewsViewController.m */,
 				2220164422AD418700E1DF38 /* SeachViewController.h */,
 				2220164522AD418700E1DF38 /* SeachViewController.m */,
+				FF875B8522C11A8C00DDC074 /* OptionViewController.h */,
+				FF875B8622C11A8C00DDC074 /* OptionViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -205,6 +210,7 @@
 				2220164622AD418700E1DF38 /* SeachViewController.m in Sources */,
 				22C3BED022A98E230078DACA /* BookMarkViewController.m in Sources */,
 				22C3BEC422A981050078DACA /* main.m in Sources */,
+				FF875B8722C11A8C00DDC074 /* OptionViewController.m in Sources */,
 				22C3BEB622A981040078DACA /* AppDelegate.m in Sources */,
 				22F5632322AAD95300DA971D /* ViewDetailViewController.m in Sources */,
 				22F5632022AAA24100DA971D /* CellObject.m in Sources */,

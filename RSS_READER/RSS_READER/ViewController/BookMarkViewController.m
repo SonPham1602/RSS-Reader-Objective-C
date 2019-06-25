@@ -179,6 +179,14 @@ static NSMutableDictionary *DataTransferCellTemp;
     UITableViewRowAction *editAction = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleNormal title:@"Mark as Unread" handler:^(UITableViewRowAction *action, NSIndexPath *indexPath){
         NSDictionary *dic = [self->feeds objectAtIndex:indexPath.row];
         [SaveNewsViewController AddNewsToDownloadPlist:dic];
+        //This is a code that show message to notify user
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Download Successful"
+                                                        message:nil
+                                                       delegate:self
+                                              cancelButtonTitle:@"OK"
+                                              otherButtonTitles:nil,nil];
+        [alert show];
+        //[alert release];
     }];
     editAction.backgroundColor = [UIColor grayColor];
     // Can Add Other Button

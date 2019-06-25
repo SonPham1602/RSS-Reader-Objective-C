@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hC9-4R-g7d">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hC9-4R-g7d">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -99,6 +99,9 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                         <state key="normal" title="Settings"/>
+                                        <connections>
+                                            <segue destination="4So-zq-aNr" kind="show" id="q4b-Oq-RXR"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uf2-Pj-1fL">
                                         <rect key="frame" x="50" y="316" width="225" height="35"/>
@@ -201,6 +204,40 @@
                 </screenEdgePanGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1742.0289855072465" y="40.848214285714285"/>
+        </scene>
+        <!--Option View Controller-->
+        <scene sceneID="KAc-du-nue">
+            <objects>
+                <viewController id="4So-zq-aNr" customClass="OptionViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="db2-N4-d27">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DZH-j0-YoS">
+                                <rect key="frame" x="344" y="127" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="white_circle"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Theme" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="49J-aE-lnf">
+                                <rect key="frame" x="20" y="139" width="67" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L25-XN-fMA">
+                                <rect key="frame" x="286" y="127" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="black_circle"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="h1e-6I-EOe"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FoA-Nb-DJk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1742" y="832"/>
         </scene>
         <!--View Detail View Controller-->
         <scene sceneID="TaY-Ub-vBN">
@@ -312,6 +349,7 @@
                             <barButtonItem image="setting30" landscapeImage="setting30" largeContentSizeImage="setting30" id="nhD-nf-rCn">
                                 <connections>
                                     <action selector="Setting:" destination="NUV-LR-aWl" id="3hd-eq-rzI"/>
+                                    <segue destination="4So-zq-aNr" kind="show" id="3T7-Nf-Fgd"/>
                                 </connections>
                             </barButtonItem>
                             <barButtonItem image="share30" landscapeImage="share30" largeContentSizeImage="share30" id="H5M-69-TMf">
@@ -337,7 +375,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7sA-Fr-0aI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2513" y="425"/>
+            <point key="canvasLocation" x="865" y="832"/>
         </scene>
         <!--Saved News-->
         <scene sceneID="Geh-hd-DI3">
@@ -471,7 +509,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="1588.4057971014495" y="969.64285714285711"/>
+            <point key="canvasLocation" x="807" y="-672"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="eCk-Qc-SVQ">
@@ -541,14 +579,17 @@
     </scenes>
     <resources>
         <image name="avatar" width="960" height="960"/>
-        <image name="bookmark50" width="37.5" height="37.5"/>
-        <image name="compass50" width="37.5" height="37.5"/>
-        <image name="download30" width="154.28572082519531" height="154.28572082519531"/>
-        <image name="search50" width="37.5" height="37.5"/>
-        <image name="setting30" width="22.5" height="22.5"/>
-        <image name="share30" width="154.28572082519531" height="154.28572082519531"/>
+        <image name="black_circle" width="50" height="50"/>
+        <image name="bookmark50" width="50" height="50"/>
+        <image name="compass50" width="50" height="50"/>
+        <image name="download30" width="30" height="30"/>
+        <image name="search50" width="50" height="50"/>
+        <image name="setting30" width="30" height="30"/>
+        <image name="share30" width="30" height="30"/>
+        <image name="white_circle" width="50" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="vKE-bh-Tot"/>
+        <segue reference="3T7-Nf-Fgd"/>
     </inferredMetricsTieBreakers>
 </document>
