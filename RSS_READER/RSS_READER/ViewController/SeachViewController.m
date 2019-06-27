@@ -9,6 +9,7 @@
 #import "SeachViewController.h"
 
 @interface SeachViewController ()
+@property (weak, nonatomic) IBOutlet UISearchBar *SearchBar;
 
 @end
 
@@ -16,9 +17,34 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    _SearchBar.delegate=self;
     // Do any additional setup after loading the view.
 }
 
+-(void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText
+{
+    if(searchText.length == 0)
+    {
+        
+    }
+    else
+    {
+        NSLog(@"%@",searchText);
+    }
+}
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return 8;
+
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [[UITableViewCell alloc]init];
+    return cell;
+}
 /*
 #pragma mark - Navigation
 
