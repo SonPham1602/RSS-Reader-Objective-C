@@ -217,6 +217,9 @@
                                 <rect key="frame" x="193" y="127" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="black_circle"/>
+                                <connections>
+                                    <action selector="SelectDarkMode:" destination="4So-zq-aNr" eventType="touchUpInside" id="Ka8-er-beS"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Theme" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="49J-aE-lnf">
                                 <rect key="frame" x="20" y="139" width="67" height="27"/>
@@ -236,6 +239,9 @@
                                 <rect key="frame" x="268" y="129" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="white_circle"/>
+                                <connections>
+                                    <action selector="SelectWhiteMode:" destination="4So-zq-aNr" eventType="touchUpInside" id="aQp-Rp-PtM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qfe-Lz-Tr8">
                                 <rect key="frame" x="64" y="698" width="103" height="51"/>
@@ -269,6 +275,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="h1e-6I-EOe"/>
                     </view>
+                    <connections>
+                        <outlet property="MainView" destination="db2-N4-d27" id="b1K-p4-kXx"/>
+                        <outlet property="labelSelectFontSize" destination="HeQ-LT-0mN" id="g9c-yz-OUu"/>
+                        <outlet property="labelSelectMode" destination="49J-aE-lnf" id="0FT-MS-FVL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FoA-Nb-DJk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -626,6 +637,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="vKE-bh-Tot"/>
-        <segue reference="3T7-Nf-Fgd"/>
+        <segue reference="q4b-Oq-RXR"/>
     </inferredMetricsTieBreakers>
 </document>
